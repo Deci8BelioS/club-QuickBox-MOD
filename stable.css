@@ -6,7 +6,7 @@
   --background-light: #343434;
   --text-color: #cecece;
   --text-color-light: #cecece;
-  --highlight-color: #00A5FF;
+  --highlight-color: #00a5ff;
   --font-family: "Open Sans", sans-serif;
   --text-shadow-color: #000;
   --meter-bg-color: #1e824c;
@@ -26,7 +26,7 @@
   --header-border-color: #3a3a3a;
   --col-resize-sep-bg-color: #222;
   --row-border-color: #333;
-  --row-odd-bg-color: #2A2A2A;
+  --row-odd-bg-color: #2a2a2a;
   --row-even-bg-color: #222222;
   --row-active-bg-color: #3a3a3a;
 }
@@ -45,7 +45,7 @@
 }
 
 .stable thead td div {
-  padding: 4px 16px 4px 6px!important;
+  padding: 4px 16px 4px 6px !important;
 }
 
 div#tdcont .stable thead,
@@ -95,7 +95,7 @@ div#tdcont .stable {
 }
 
 .stable tbody tr:not(.selected):hover td {
-  background-color: var(--row-hover-bg-color)!important;
+  background-color: var(--row-hover-bg-color) !important;
   color: var(--selected-text-color);
   text-shadow: 0 2px 4px #000;
 }
@@ -107,19 +107,23 @@ div#tdcont .stable {
 }
 
 .stable tbody tr td div {
-  font-family: var(--font-family)!important;
+  font-family: var(--font-family) !important;
   font-size: 11px;
+  height: 18px !important;
 }
 
 .stable-body td {
   border-bottom: 1px solid #c9c9c925;
-  vertical-align: middle;
+  font-family: var(--font-family) !important;
+  font-size: 11px;
+  height: 21px !important;
+  line-height: 11px;
 }
 
 .stable-body td div {
-  font-family: var(--font-family)!important;
+  font-family: var(--font-family) !important;
   font-size: 11px;
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 .stable-body tr {
@@ -127,7 +131,7 @@ div#tdcont .stable {
 }
 
 .stable tbody tr.selected td {
-  background: var(--selected-background)!important;
+  background: var(--selected-background) !important;
   color: var(--selected-text-color);
   font-weight: 600;
   text-shadow: var(--selected-text-shadow);
@@ -186,7 +190,7 @@ div.stable-body table tbody tr.even td:nth-child(2n + 1) {
 }
 
 .stable-active-header {
-  border-color: threedface!important;
+  border-color: threedface !important;
 }
 
 .stable-separator-header {
@@ -234,7 +238,7 @@ div.stable-body table tbody tr.even td:nth-child(2n + 1) {
 .stable-icon {
   float: left;
   height: 16px;
-  padding: 0!important;
+  padding: 0 !important;
   width: 16px;
 }
 
